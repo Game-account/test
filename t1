@@ -1,0 +1,5 @@
+extensionUtil.check().then(result => {
+  if (result.some(ext => ext.name === "Linewize")) {
+    console.log("linewize");
+  }
+});
